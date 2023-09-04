@@ -1,0 +1,27 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "description": "This repo contains all token/protocol icon images.",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky install",
+    "validate": "node validate.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-unity-data:unity-data/images.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "husky": "^8.0.3",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "viem": "^1.10.1"
+  }
+}

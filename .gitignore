@@ -1,0 +1,5 @@
+# chaff
+node_modules
+
+# security
+.env
